@@ -14,7 +14,8 @@ export default function LoginTopbar() {
                 UNIVERSITY OF RUHUNA
                 </Typography>
                 <Stack spacing={1} direction="row">
-                    <Button variant="Text">You are not logging (Login)</Button>
+                <a href ="/login" ><Button variant="Text">You are not logging (Login)</Button></a>  
+                    
                 </Stack>
           </Stack> 
          </Toolbar>

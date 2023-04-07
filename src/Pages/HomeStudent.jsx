@@ -20,12 +20,12 @@ export default function HomeStudent () {
             <Grid container spacing={0}>
                 <Grid item xs={12} md={6} sx={{borderRight: 1, borderColor: 'divider'}}>
                 <Box p={2}>
-                    <Chip label="Scheduled Appointments"/>
+                <Chip label="Scheduled Appointments" sx={{ fontSize: "1.2rem" }} />
                 </Box>
                 </Grid>
                 <Grid item xs={12} md={6}>
                 <Box p={2}>
-                    <Chip label="Notifications"/>
+                    <Chip label="Notifications" sx={{ fontSize: "1.2rem" }} />
                 </Box>
                 </Grid>
             </Grid>
