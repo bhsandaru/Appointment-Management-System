@@ -1,4 +1,4 @@
-import { AppBar, Box, Chip, CssBaseline, Toolbar } from "@mui/material";
+import { AppBar, Box, Button, Chip, CssBaseline, Toolbar } from "@mui/material";
 import MainTopbar from "../Components/MainTopbar";
 import SideDrawer from "../Components/SideDrawer";
 import { Grid } from '@mui/material';
@@ -26,6 +26,7 @@ export default function HomeStudent () {
                 <Grid item xs={12} md={6}>
                 <Box p={2}>
                     <Chip label="Notifications" sx={{ fontSize: "1.2rem" }} />
+                    <a href ="/saccountpage" ><Button variant='contained' sx={{ width: '100%' }}>NEST</Button></a> 
                 </Box>
                 </Grid>
             </Grid>
